@@ -1,0 +1,25 @@
+.Input{
+    width: 13rem;
+    height: 2rem;
+    background-color: rgb(228, 240, 238);
+    border: none;
+    outline: none;
+     color: rgb(54, 53, 53);
+}
+.inputmain{
+    width: 19rem;
+    height: 2.3rem;
+    border-radius: 25px;
+    position: relative;
+    text-align: center; 
+    border: 1px rgb(0, 0, 0) solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px rgb(0, 0, 0) solid;
+    background-color:  rgb(228, 240, 238);
+    
+}
+.icon2{
+    font-size: 20px;
+}

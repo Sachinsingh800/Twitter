@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    padding: 1rem;
+    column-gap: 1rem;
+    height: 1.6rem;
+    background-color:white;
+    opacity: 0.9;
+    position: sticky;
+    border: 1px rgb(172, 169, 169)solid;
+   width: 33.9rem;
+}
+.userName{
+    /* border: 1px red solid; */
+    margin-top: -1.5rem;
+    height: 4rem;
+}
+.userName h6{
+    margin-top: -1rem;
+}

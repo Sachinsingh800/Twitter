@@ -1,0 +1,40 @@
+.main{
+   display: grid;
+   grid-column: 2/3;
+    width: 36rem;
+    height: 100vh;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* border: 1px blue solid; */
+    flex-wrap: wrap;
+}
+.header{
+    height: 7.4rem;
+    position: fixed;
+}
+.sectionmain{
+    margin-top: 7.4rem;
+}
+.main::-webkit-scrollbar{
+    display:none;
+}
+@media  (max-width:720px) {
+    .main{
+   display: grid;
+   grid-column: 2/3;
+    width: 36rem;
+    height: 100vh;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+}
+@media  (max-width:547px) {
+    .sectionmain{
+        display: none;
+    }
+    .CardDetail{
+       margin-top: 7.5rem;
+    }
+}

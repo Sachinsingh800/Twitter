@@ -1,0 +1,15 @@
+ <div>
+      <button className={style.button1}  onClick={handleClickOpen}>
+      <BiMessageRounded/> {count}
+      </button>
+      <Dialog open={open} >
+     
+      <button className={style.button} onClick={handleClose}>x</button>
+      <img className={style.image} src={Image} alt="Profile"/>
+      <div className={style.dialogBox}>
+       <input className={style.input}  onChange={(e)=> setData(e.target.value)} value={data} placeholder="What's happening?"></input>
+      </div>
+      <button onClick={handleSummit}   className={style.tweet}>Reply</button>
+       </Dialog>
+      
+    </div>

@@ -1,0 +1,39 @@
+.button{
+    width: 13rem;
+    height: 3.5rem;
+    border-radius:25px;
+    border: none;
+    background-color: transparent;
+}
+.img{
+    height: 40px;
+}
+.name{
+    font-size: 15px;
+    font-weight: 400;
+}
+.popover{
+    display: flex;
+    align-items: center;
+}
+.pop{
+    margin-top:-4rem;
+}
+ul li{
+    list-style: none;
+    font-weight: 900;
+}
+.button:hover{
+  background-color: rgb(224, 224, 224);
+}
+.dot{
+    margin-left: 15px;
+}
+@media  (max-width:1200px) {
+  .names{
+    display: none;
+  }
+  .dot{
+    display: none;
+  }
+}

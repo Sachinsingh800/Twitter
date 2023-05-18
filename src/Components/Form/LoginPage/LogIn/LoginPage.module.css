@@ -1,0 +1,75 @@
+.form{
+    width: 36rem;
+    height: 34rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color:  rgba(0, 0, 0, 0.4) ;
+    height: 100vh;
+}
+.form hr{
+    width: 8.4rem;
+    height: 0px;
+}
+.form h4{
+    margin-top:30px;
+    font-weight: 300;
+}
+.line{
+    display: flex;
+}
+.or{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.input{
+    height: 3.5rem;
+    width: 18rem;
+    border-radius: 5px;
+    border: 1px rgb(167, 164, 164) solid;
+    outline: none;
+    font-weight: 500;
+    font-size: larger;
+}
+.link a{
+    color: rgb(29, 155, 240) ;
+    font-weight: 600;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.logo{
+    color:blue;
+    font-size:40px;
+    margin-top:10px;
+}
+@media  (max-width:720px) {
+    .main{
+        background-color: white;
+    }
+    .form{
+        background-color: rgb(255, 255, 255);
+        border-radius: none;
+        box-shadow: none;
+    }
+}
+@media  (max-width:360px) {
+    html{
+        font-size: 10px;
+    }
+    .main{
+        background-color: rgb(255, 255, 255);
+    }
+    .form{
+        background-color: rgb(255, 255, 255);
+        border-radius: none;
+        box-shadow: none;
+    }
+}

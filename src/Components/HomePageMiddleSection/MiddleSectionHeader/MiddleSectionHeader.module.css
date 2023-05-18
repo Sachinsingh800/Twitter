@@ -1,0 +1,46 @@
+.button{
+    display: flex;
+}
+.button button{
+    width: 17.95rem;
+    height: 2.9rem;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+}
+.main h2{
+    margin-left: 1rem;
+}
+.button button:hover{
+    background-color: rgb(212, 210, 206);
+}
+.main{
+    position: sticky;
+    border: 1px rgb(172, 169, 169)solid;
+    height: 7.3rem;
+    background-color:white;
+    opacity: 0.9;
+}
+
+.headerone{
+   background-color: white; 
+   display: none;
+   margin-top: -2.7rem;
+}
+.logo{
+    color: blue;
+   margin-left: 15rem;
+   font-size: 20px; 
+  margin-top: -2.6rem;
+  position: absolute;
+}
+
+@media  (max-width:760px) {
+    .headerone{
+        display: unset;
+    }
+    .head{
+        display: none;
+    }
+}

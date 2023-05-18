@@ -1,0 +1,23 @@
+.main{
+
+    border-radius: 10px;
+    background-color: rgb(228, 240, 238);
+}
+.card{
+    padding: 15px;
+}
+.main h2{
+    margin-left: 1rem;
+}
+.button{
+    margin-left: 1rem;
+    border: none;
+    background-color: white;
+    color: blue;
+    margin-bottom: 10px;
+    font-size: large;
+    background-color: transparent;
+}
+.card:hover{
+    background-color: rgb(205, 211, 216);
+}

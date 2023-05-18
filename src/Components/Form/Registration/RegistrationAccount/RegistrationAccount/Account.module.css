@@ -1,0 +1,107 @@
+.login{
+    margin-top: 5rem;
+}
+.form{
+    width: 36rem;
+    height: 34rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px;
+}
+.logo{
+    color:blue;
+    font-size:2.5rem;
+    margin-top:10px;
+}
+.heading2{
+     margin-bottom: 3rem;
+     font-weight: 200;
+}
+.input{
+    height: 2.7rem;
+    width: 18rem;
+    border-radius: 5px;
+    border: 1px rgb(167, 164, 164) solid;
+    outline: none;
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 0.5rem;
+}
+.input1{
+    height: 2.7rem;
+    width: 18rem;
+    border-radius: 5px;
+    border: 1px rgb(167, 164, 164) solid;
+    outline: none;
+    font-weight: 500;
+    font-size: larger;
+    margin-top: -1rem;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color:  rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+.form hr{
+    width: 8.4rem;
+    height: 0px;
+}
+.form h4{
+    margin-top:30px;
+    font-weight: 300;
+}
+.Dob{
+    width: 20rem;
+    height: 5rem;
+ 
+}
+.Dob p{
+    margin-top: -1rem;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+}
+.Dob h5{ 
+     margin-top: 1rem;
+     margin-left: 1rem;
+}
+.date{
+    display: flex;
+    justify-content: space-around;
+}
+
+.useemail:hover{
+   text-decoration: underline;
+   color: #2997f1;
+}
+
+@media  (max-width:720px) {
+    .main{
+        background-color: white;
+    }
+    .form{
+        background-color: rgb(255, 255, 255);
+        border-radius: none;
+        box-shadow: none;
+    }
+}
+@media  (max-width:360px) {
+    html{
+        font-size: 10px;
+    }
+    .main{
+        background-color: rgb(255, 255, 255);
+    }
+    .form{
+        background-color: rgb(255, 255, 255);
+        border-radius: none;
+        box-shadow: none;
+    }
+    
+
+}

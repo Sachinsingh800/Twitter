@@ -1,0 +1,24 @@
+.main{
+   display: flex;
+   width: 18rem;
+   padding: 1rem;
+   row-gap: 0.2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   justify-content: space-between;
+   border-radius: 5px;
+   
+}
+.main:hover{
+   background-color:  rgb(205, 211, 216);
+}
+.container h2{
+   margin-left: 1rem;
+}
+.trends{
+   color: blue;
+   font-weight: 700;
+   font-size: medium;
+}
+.para{
+   font-size: small;
+}

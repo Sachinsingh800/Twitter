@@ -1,0 +1,85 @@
+.form{
+    width: 36rem;
+    height: 34rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color:   rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+.form hr{
+    width: 8.4rem;
+    height: 0px;
+}
+.form h4{
+    margin-top:30px;
+    font-weight: 300;
+}
+.para{
+    width: 20rem;
+    padding: 5px;
+}
+.para h5{
+    font-weight: 200; 
+}
+.or{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.line{
+    display: flex;
+}
+.logo{
+    color:blue;
+    font-size:2.5rem;
+    margin-top:10px;
+}
+.link a{
+    color: rgb(29, 155, 240) ;
+    font-weight: 600;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.termandcondition{
+    color: rgb(29, 155, 240) ;
+}
+.para{
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-left: 1.9rem;
+    word-spacing: 2.5px;
+}
+
+@media  (max-width:720px) {
+    .main{
+        background-color: white;
+    }
+    .form{
+        background-color: rgb(255, 255, 255);
+        border-radius: none;
+        box-shadow: none;
+    }
+}
+@media  (max-width:360px) {
+    html{
+        font-size: 10px;
+    }
+    .main{
+        background-color: rgb(255, 255, 255);
+    }
+    .form{
+        background-color: rgb(255, 255, 255);
+        border-radius: none;
+        box-shadow: none;
+    }
+    
+
+}

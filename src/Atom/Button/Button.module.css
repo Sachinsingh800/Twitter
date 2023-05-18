@@ -1,0 +1,30 @@
+body{
+    /* background-color: black; */
+}
+.signbtn{
+    height: 2.5rem;
+    width: 18.6rem;
+    font-size: 1rem;
+    border: 0;
+    color: #000000;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 500;
+    border: 1px rgb(196, 191, 191) solid;
+}
+.signbtn:hover{
+          background-color: rgba(224, 219, 219, 0.712);
+          
+}
+.img1{
+    height: 1.2rem;
+    margin-right: 5px;
+}
+@media  (max-width:360px) {
+    .signbtn{
+      align-items: center;
+    }
+}

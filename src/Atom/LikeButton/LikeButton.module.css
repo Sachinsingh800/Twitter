@@ -1,0 +1,19 @@
+.button{
+    display: flex;
+    height: 2rem;
+    border-radius: 25px;
+   row-gap: 1rem;
+    background-color: transparent;
+    /* border: none; */
+ 
+    border: none;
+    font-size: large;
+    font-weight: 500;
+    width: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    margin-right: 1rem;
+}

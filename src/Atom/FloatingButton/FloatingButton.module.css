@@ -1,0 +1,14 @@
+.main button{
+    position: fixed;
+    border-radius: 100px;
+    font-size: 2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border: none;
+    background-color: blue;
+    color: white;
+    
+}
+.pluse{
+    font-size: 2rem;
+}

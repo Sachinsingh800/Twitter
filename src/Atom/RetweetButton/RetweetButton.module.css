@@ -1,0 +1,49 @@
+.button{
+    border-radius:25px;
+    background-color: transparent;
+    height: 2rem;
+    border-radius: 25px;
+    border: none;
+    font-size: large;
+    font-weight: 500;
+    width: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    height: 40px;
+}
+.name{
+    font-size: 15px;
+    font-weight: 400;
+}
+.popover{
+    display: flex;
+    align-items: center;
+}
+.pop{
+    margin-top:-4rem;
+}
+ul li{
+    list-style: none;
+    font-weight: 900;
+}
+.button:hover{
+  background-color: rgb(224, 224, 224);
+}
+.dot{
+    margin-left: 15px;
+}
+.retweetbtn{
+    display: flex;
+    flex-direction: column;
+   row-gap: 1rem;
+}
+.retweetbtn button{
+            border: none;
+            background-color: transparent;
+}
+.icon{
+   margin-right: 1rem;
+}

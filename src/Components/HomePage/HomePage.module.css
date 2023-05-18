@@ -1,0 +1,49 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+  
+}
+.floatingbtn{
+    display: none;
+}
+
+@media  (max-width:1200px) {
+    .main{
+        padding: 0rem 0rem 0rem 0rem;   
+    }
+.RightSection{
+    display: none;
+}
+}
+
+@media  (max-width:547px) {
+html{
+    font-size: 10px;
+}
+.floatingbtn{
+     display: unset;
+    
+     display: flex;
+     justify-content: flex-end;
+     position: absolute;
+    margin-top: -13rem;
+    margin-left: 29rem;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media  (max-width:760px) {
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LeftSection{
+    display: none;
+}
+}

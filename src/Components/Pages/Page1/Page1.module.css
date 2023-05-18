@@ -1,0 +1,30 @@
+.heading{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px red solid; */
+}
+.image{
+    height: 25rem;
+    width: 30rem;
+    border-radius: 10px;
+}
+.ImageWrapper{
+    padding: 0rem 3rem;
+}
+.bottomSection{
+    display: flex;
+    justify-content: space-evenly
+}
+.img{
+    height: 50px;
+    width: 50px;
+    padding: 0rem 1rem;
+    /* margin-top: 0.8rem; */
+}
+.main{
+    border: 1px rgb(209, 205, 205) solid;
+}
+@media (max-width:360){
+    
+}
